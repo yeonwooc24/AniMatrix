@@ -1,4 +1,6 @@
 package yeonwoo.choi.animatrix;
 
-public class Gallery {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Gallery extends AppCompatActivity {
 }
