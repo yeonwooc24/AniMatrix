@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AniMatrix</string>
+    <string name="hint">Name</string>
+    <string name="RadioButton">Allow</string>
+    <string name="RadioButton2">Deny</string>
+    <string name="optional">optional*</string>
+    <string name="description">Work Description</string>
+
+</resources>

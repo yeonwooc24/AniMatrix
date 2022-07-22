@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FF76528B"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#CBCE91"
+        android:gravity="center"
+        android:text="AniMatrix"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/aboutus1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:text=" Our team strives for the better experience of the beginners enterring the animator’s world, but also for those who dream of getting their story animated."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/btn1"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/avatar" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
