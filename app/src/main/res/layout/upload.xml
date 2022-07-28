@@ -142,6 +142,7 @@
             android:adjustViewBounds="true"
             android:background="@color/white"
             android:scaleType="fitXY"
+            android:clickable="true"
             app:srcCompat="@drawable/uploadbuttonpic" />
 
 

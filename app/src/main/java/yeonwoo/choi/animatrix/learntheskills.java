@@ -1,2 +1,4 @@
-package yeonwoo.choi.animatrix;public class learntheskills {
+package yeonwoo.choi.animatrix;
+
+public class learntheskills {
 }

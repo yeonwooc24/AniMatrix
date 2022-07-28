@@ -46,6 +46,7 @@
             android:background="@drawable/btn1"
             android:gravity="center"
             android:text="About Us"
+            android:clickable="true"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -63,6 +64,7 @@
             />
 
         <TextView
+            android:id="@+id/textView4"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
@@ -76,6 +78,7 @@
             />
 
             <TextView
+                android:id="@+id/TextView5"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
@@ -87,6 +90,7 @@
                 android:gravity="center"
                 />
         <TextView
+            android:id="@+id/textView6"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center"

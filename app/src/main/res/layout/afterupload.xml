@@ -45,7 +45,8 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/btn1"
             android:gravity="center"
-            android:text="Thank you for the upload. If you want to return to the home page, click below"
+            android:text="Thank you for the upload. Your work will be open to the public after inspection.
+ If you want to return to the home page, click below"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -54,9 +55,10 @@
             android:id="@+id/imageView5"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
             android:adjustViewBounds="true"
+            android:clickable="true"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/returnbutton" />
 

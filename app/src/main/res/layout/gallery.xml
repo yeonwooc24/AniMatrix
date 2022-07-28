@@ -38,10 +38,12 @@
 
 
         <SearchView
+            android:id="@+id/search_button"
             android:layout_width="300dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:clickable="true"
             android:background="@drawable/searchview" >
 
         </SearchView>
