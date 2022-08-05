@@ -49,14 +49,6 @@ public class Main extends AppCompatActivity {
             }
         });
 
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent it = new Intent(Main.this, learntheskills.class);
-                startActivity(it);
-            }
-        });
-
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
