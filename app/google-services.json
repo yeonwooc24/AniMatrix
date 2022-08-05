@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254886910575",
+    "firebase_url": "https://animatrix-3335f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "animatrix-3335f",
+    "storage_bucket": "animatrix-3335f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254886910575:android:c3c2647b096f3853410b9a",
+        "android_client_info": {
+          "package_name": "yeonwoo.choi.animatrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254886910575-vmngeqhmdahtjsc096intuj5gq7tjq0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yeonwoo.choi.animatrix",
+            "certificate_hash": "d20eab74d75be41a8ff4c8fde757065d21b10c6a"
+          }
+        },
+        {
+          "client_id": "254886910575-lkv6olpa0gg0k0b0ttl5sbbkmqimbmpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb4qvHKcXsQm-AeXs7zp8qgIH5g9yaTtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254886910575-lkv6olpa0gg0k0b0ttl5sbbkmqimbmpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

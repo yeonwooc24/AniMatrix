@@ -77,18 +77,18 @@
             android:gravity="center"
             />
 
-            <TextView
-                android:id="@+id/TextView5"
-                android:layout_width="200dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/btn1"
-                android:text="Learn the skills"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                android:gravity="center"
-                />
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn1"
+            android:gravity="center"
+            android:text="Learn the skills"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/textView6"
             android:layout_width="200dp"

@@ -14,20 +14,19 @@ public class Upload extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.upload);
-    }
+
 
     ImageButton imgbtn1 = findViewById(R.id.imageButton);
 
 
-    imgbtn1.setOnClickListener(new View.OnClickListener()
-
-    {
+    imgbtn1.setOnClickListener(new View.OnClickListener() {
         @Override
-        public void onClick (View view){
-        Intent it = new Intent(Upload.this, afterupload.class);
-        startActivity(it);
+        public void onClick (View view) {
+            Intent it = new Intent(Upload.this, afterupload.class);
+            startActivity(it);
+        }
     });
 
-
+    }
 
 }
