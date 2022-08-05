@@ -21,7 +21,7 @@ public class Main extends AppCompatActivity {
         TextView btn1 = findViewById(R.id.textView2);
         TextView btn2 = findViewById(R.id.textView3);
         TextView btn3 = findViewById(R.id.textView4);
-        TextView btn4 = findViewById(R.id.textView5);
+        TextView btn4 = findViewById(R.id.learn_the_skills);
         TextView btn5 = findViewById(R.id.textView6);
 
 
@@ -49,6 +49,13 @@ public class Main extends AppCompatActivity {
             }
         });
 
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(Main.this, learntheskills.class);
+                startActivity(it);
+            }
+        });
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pky31/Desktop/Animatrix/AniMatrix/app/src/main/res/layout/main.xml" value="0.18" />
         <entry key="app/src/main/res/drawable/btn1.xml" value="0.23480377197265614" />
         <entry key="app/src/main/res/drawable/searchview.xml" value="0.2865" />
         <entry key="app/src/main/res/drawable/uploadbutton.xml" value="0.206" />
@@ -12,7 +13,7 @@
         <entry key="app/src/main/res/layout/gallery.xml" value="0.231722958529286" />
         <entry key="app/src/main/res/layout/learntheskills.xml" value="0.231722958529286" />
         <entry key="app/src/main/res/layout/loginpage.xml" value="0.2543822146216332" />
-        <entry key="app/src/main/res/layout/main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/signup.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/splash.xml" value="0.231722958529286" />
         <entry key="app/src/main/res/layout/upload.xml" value="0.21173594132029339" />
