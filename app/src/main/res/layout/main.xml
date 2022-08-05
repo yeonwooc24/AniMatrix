@@ -81,7 +81,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/TextView5"
+                android:id="@+id/tvLs"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
