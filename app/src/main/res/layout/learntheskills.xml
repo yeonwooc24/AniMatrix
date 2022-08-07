@@ -27,77 +27,81 @@
         android:orientation="horizontal">
 
 
-
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FFFFFF"
-        android:orientation="vertical">
-
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:background="#FFFFFF"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/grey"
-                android:text="New"
-                android:textColor="@color/black" />
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grey"
+                    android:text="New"
+                    android:textColor="@color/black" />
 
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/grey"
+                    android:text="Beginner Bests"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <SearchView
+                android:id="@+id/searchview2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
                 android:layout_marginHorizontal="10dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/grey"
-                android:text="Beginner Bests"
-                android:textColor="@color/black" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/searchview"
+                android:clickable="true">
+
+            </SearchView>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tutorialphoto" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dogphoto" />
+
 
         </LinearLayout>
-
-        <SearchView
-            android:id="@+id/searchview2"
-            android:layout_width="match_parent"
-            android:background="@drawable/searchview"
-            android:layout_marginHorizontal="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_height="60dp"
-            android:clickable="true">
-
-        </SearchView>
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/tutorialphoto" />
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/dogphoto" />
-
-
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -27,7 +27,6 @@
         android:orientation="horizontal">
 
 
-
     </LinearLayout>
 
     <LinearLayout
@@ -59,7 +58,6 @@
             />
 
     </LinearLayout>
-
 
 
 </LinearLayout>

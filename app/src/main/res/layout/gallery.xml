@@ -27,60 +27,65 @@
         android:orientation="horizontal">
 
 
-
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FFFFFF"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-
-        <SearchView
-            android:id="@+id/search_button"
-            android:layout_width="350dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:clickable="true"
-            android:background="@drawable/searchview" >
-
-        </SearchView>
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="350dp"
-            android:layout_height="300dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:adjustViewBounds="true"
-            android:background="@color/white"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/dragon"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="350dp"
-            android:layout_height="300dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:adjustViewBounds="true"
-            android:background="@color/white"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/projectex" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="200dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13dp"
-            android:layout_gravity="center_horizontal"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/page" />
+            android:background="#FFFFFF"
+            android:orientation="vertical">
 
 
-    </LinearLayout>
+            <SearchView
+                android:id="@+id/search_button"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/searchview"
+                android:clickable="true">
+
+            </SearchView>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dragon"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/gearfive" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="13dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
