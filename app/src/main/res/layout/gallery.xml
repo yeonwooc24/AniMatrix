@@ -60,6 +60,7 @@
                 android:adjustViewBounds="true"
                 android:background="@color/white"
                 android:scaleType="fitXY"
+                android:clickable="true"
                 app:srcCompat="@drawable/dragon"
                 tools:ignore="SpeakableTextPresentCheck" />
 

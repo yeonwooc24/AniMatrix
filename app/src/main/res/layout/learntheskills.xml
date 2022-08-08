@@ -97,6 +97,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:adjustViewBounds="true"
+                android:clickable="true"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/dogphoto" />
 
