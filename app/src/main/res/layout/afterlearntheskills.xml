@@ -21,56 +21,59 @@
         android:textSize="40dp"
         />
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
 
-    </LinearLayout>
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:orientation="vertical">
+            android:backgroundTint="@color/white"
+            android:layout_height="match_parent">
 
-
-            <ImageView
-                android:id="@+id/imageView12"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/dogphoto" />
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:text="In this video, viewers will learn about the basics of using Aodbe Animate to animate a simple scene of a dog fishing by the pond. This video focuses on building a strong foundation for the reader and on all of the fundamental tools provided on Adobe Animate. This video is highly recommended to those who are only just starting to get into animating. "
-                android:textColor="@color/black"
-                android:textSize="17.5sp"
-                android:textStyle="bold" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginHorizontal="10dp"
-                android:layout_marginTop="10dp">
-
-                <com.google.android.material.textfield.TextInputEditText
+                <ImageView
+                    android:id="@+id/imageView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Comment"
+                    app:srcCompat="@drawable/dogphoto" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="In this video, viewers will learn about the basics of using Aodbe Animate to animate a simple scene of a dog fishing by the pond. This video focuses on building a strong foundation for the reader and on all of the fundamental tools provided on Adobe Animate. This video is highly recommended to those who are only just starting to get into animating. "
                     android:textColor="@color/black"
-                    android:textStyle="italic" />
-            </com.google.android.material.textfield.TextInputLayout>
+                    android:textSize="17.5sp"
+                    android:textStyle="bold" />
 
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp">
 
-        </LinearLayout>
-    </ScrollView>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Comment"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <View android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </LinearLayout>

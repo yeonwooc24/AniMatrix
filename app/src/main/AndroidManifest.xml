@@ -60,6 +60,13 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".loginpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
 
         <activity android:name=".signup"
             android:exported="true">
